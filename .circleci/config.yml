@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: .circleci/images/Dockerfile
+    - image: hashicorp/terraform:light
 
 jobs:
   init:
